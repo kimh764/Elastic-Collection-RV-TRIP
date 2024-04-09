@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="rvlog.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RV</title>
+    <link rel="stylesheet" href="mainR.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/destyle.css@1.0.5/destyle.css"/>
+</head>
+  <!-- CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"/>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/destyle.css@1.0.5/destyle.css"/>
+
+
+<body>
+    <div class=rvB>
+      <div class="e36_57"></div>
+      <div class="e36_58"></div>
+      <div class="e36_59"></div>
+      <div class="e36_60"></div>
+      <div class="e36_61"></div>
+
+        <div class="rvcar1"></div>
+        <div class="rvcar2"></div>
+        <div class="rvcar3"></div>
+        <div class="rvcar4"></div>
+        <div class="rvcar5"></div>
+        <div class="rvcar6"></div>
+        <div class="rvcar7"></div>
+        <div class="rvcar8"></div>
+        <div class="rvcar9"></div>
+        <div class="rvcar10"></div>
+
+        <div class="rvcar11"></div>
+        <div class="rvcar12"></div>
+        <div class="rvcar13"></div>
+        <div class="rvcar14"></div>
+        <div class="rvcar15"></div>
+        <div class="rvcar16"></div>
+        <div class="rvcar17"></div>
+        <div class="rvcar18"></div>
+        <div class="rvcar19"></div>
+        <div class="rvcar20"></div>
+        <div class="rvcar21"></div>
+        <div class="rvcar22"></div>
+        <div class="rvcar23"></div>
+        <div class="rvcar24"></div>
+        <div class="rvcar25"></div>
+
+        <div id="output"></div>
+        
+        <span  class="w">Would you like to go on a trip together?</span>
+        <span  class="c">Come join me on an RV trip and enjoy music!</span>
+        <a href="index.html" class="Exit">Exit</a>
+      </div>
+</body>
+<style>
+  /* 애니메이션 대상 요소 스타일 */
+  .rvcar2, .rvcar4, .rvcar5, .rvcar7, .rvcar9, .rvcar11, .rvcar17, .rvcar21  {
+   
+    animation: moveRightLeft 5s linear infinite; /* 좌우로 움직이는 애니메이션 */
+  }
+
+  /* 애니메이션 키프레임 정의 */
+  @keyframes moveRightLeft {
+    100% {
+      left: -100px; /* 시작 위치: 왼쪽 끝 */
+    }
+    0% {
+      left: calc(100% + 100px); /* 끝 위치: 오른쪽 끝 */
+    }
+  }
+.rvcar5, .rvcar14, .rvcar16,.rvcar18, .rvcar23 {
+   
+   animation: moveRightLeft 8s linear infinite; /* 좌우로 움직이는 애니메이션 */
+ }
+
+ /* 애니메이션 키프레임 정의 */
+ @keyframes moveRightLeft {
+   100% {
+     left: -100px; /* 시작 위치: 왼쪽 끝 */
+   }
+   0% {
+     left: calc(100% + 100px); /* 끝 위치: 오른쪽 끝 */
+   }
+ }
+ .rvcar22 {
+   
+   animation: moveRightLeft 4s linear infinite; /* 좌우로 움직이는 애니메이션 */
+ }
+
+ /* 애니메이션 키프레임 정의 */
+ @keyframes moveRightLeft {
+   100% {
+     left: -100px; /* 시작 위치: 왼쪽 끝 */
+   }
+   0% {
+     left: calc(100% + 100px); /* 끝 위치: 오른쪽 끝 */
+   }
+ }
+
+ .rvcar1,  .rvcar6, .rvcar25, .rvcar10, .rvcar13, .rvcar20 {
+   animation: moveRight 4s linear infinite; /* 오른쪽으로 움직이는 애니메이션 */
+ }
+
+ /* 애니메이션 키프레임 정의 */
+ @keyframes moveRight {
+   100% {
+     left: calc(100% + 100px); /* 시작 위치: 왼쪽 끝 */
+   }
+   0% {
+     left: -100px; /* 끝 위치: 오른쪽 끝 */
+   }
+ }
+
+ .rvcar3,  .rvcar8, .rvcar25, .rvcar12, .rvcar15 {
+   animation: moveRight 6s linear infinite; /* 오른쪽으로 움직이는 애니메이션 */
+ }
+
+ /* 애니메이션 키프레임 정의 */
+ @keyframes moveRight {
+   100% {
+     left: calc(100% + 100px); /* 시작 위치: 왼쪽 끝 */
+   }
+   0% {
+     left: -100px; /* 끝 위치: 오른쪽 끝 */
+   }
+ }
+
+ .rvcar19 ,.rvcar24 {
+   animation: moveRight 7s linear infinite; /* 오른쪽으로 움직이는 애니메이션 */
+ }
+
+ /* 애니메이션 키프레임 정의 */
+ @keyframes moveRight {
+   100% {
+     left: calc(100% + 100px); /* 시작 위치: 왼쪽 끝 */
+   }
+   0% {
+     left: -100px; /* 끝 위치: 오른쪽 끝 */
+   }
+ }
+
+</style>
+
+</html>
