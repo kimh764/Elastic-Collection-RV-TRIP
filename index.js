@@ -271,8 +271,3 @@ function displayData() {
     output.appendChild(div);
   });
 }
-
-window.onload = function() {
-  displayData();
-  document.getElementById('output').style.display = 'none'; // 숨김
-};
