@@ -414,18 +414,6 @@ a {
 	color: inherit;
 }
 
-img,
-figure,
-picture,
-iframe {
-    display: block;
-    margin: 0 auto; /* 가운데 정렬을 위해 margin을 자동으로 설정 */
-    max-width: 50%;
-    height: auto;
-    border: none;
-    outline: none;
-	margin: 70px auto 0; /* 위쪽에 20px 마진을 추가하여 아래로 조금 내림 */
-}
 
 svg {
 	overflow: visible;
@@ -439,36 +427,16 @@ code {
 
 
 @media (max-width: 600px) {
-	ul {
-		grid-template-columns: 1fr;
+
+
+	.rv{ 
+		overflow:hidden;
 	}
-	.w,.c{
-		font-size: 18px;
-		color: aquamarine;
+	.rvB { 
+		background-color:rgb(189, 189, 189);
+		width:393px;
+		height:979px;
+		position:absolute;
 	}
 
-	.rvB {
-		width: 100%;
-		margin-top: 30px;
-		display: flex;
-		justify-content: center;
-		gap: 5px;
-	}
-
-	.Exit { 
-		color: aquamarine;
-		position: absolute;
-		left: 50%; /* 수평 가운데 정렬 */
-		transform: translateX(-50%); /* 요소의 너비의 절반만큼 왼쪽으로 이동 */
-		top: 9440px;
-		font-family: Helvetica Neue;
-		text-align: left;
-		font-size: 18px;
-		letter-spacing: 0;
-	}
-
-	
 }
-
-
-

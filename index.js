@@ -271,3 +271,4 @@ function displayData() {
     output.appendChild(div);
   });
 }
+
