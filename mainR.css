@@ -433,10 +433,278 @@ code {
 		overflow:hidden;
 	}
 	.rvB { 
-		background-color:rgb(189, 189, 189);
-		width:393px;
-		height:979px;
+		background-color:rgb(16, 16, 16);
 		position:absolute;
+		
 	}
+
+	.c .w {
+		font-size: 16px;
+		color: aqua;
+	}
+
+	.rvcar1 { 
+		width:96px;
+		height:70px;
+		position:absolute;
+		left:24px;
+		top:189px;
+		background-image:url(images/1rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar2 { 
+		width:93px;
+		height:66px;
+		position:absolute;
+		left:278px;
+		top:318px;
+		background-image:url(images/2rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar3 { 
+		width:98px;
+		height:72px;
+		position:absolute;
+		left:23px;
+		top:432px;
+		background-image:url(images/3rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar4 { 
+		width:108px;
+		height:79px;
+		position:absolute;
+		left:255px;
+		top:564px;
+		background-image:url(images/4rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar5{ 
+		width:98px;
+		height:74px;
+		position:absolute;
+		left:245px;
+		top:692px;
+		background-image:url(images/5rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar6 { 
+		width:98px;
+		height:78px;
+		position:absolute;
+		left:46px;
+		top:803px;
+		background-image:url(images/6rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar7 { 
+		width:100px;
+		height:66px;
+		position:absolute;
+		left:255px;
+		top:933px;
+		background-image:url(images/7rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar8{ 
+		width:96px;
+		height:67px;
+		position:absolute;
+		left:49px;
+		top:1044px;
+		background-image:url(images/8rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar9 { 
+		width:110px;
+		height:72px;
+		position:absolute;
+		left:245px;
+		top:1158px;
+		background-image:url(images/9rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar10 { 
+		width:102px;
+		height:78px;
+		position:absolute;
+		left:49px;
+		top:1275px;
+		background-image:url(images/10rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar11 { 
+		width:93px;
+		height:71px;
+		position:absolute;
+		left:245px;
+		top:1404px;
+		background-image:url(images/11rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar12 { 
+		width:100px;
+		height:74px;
+		position:absolute;
+		left:37px;
+		top:1532px;
+		background-image:url(images/12rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar13 { 
+		width:98px;
+		height:61px;
+		position:absolute;
+		left:49px;
+		top:1654px;
+		background-image:url(images/13rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar14 { 
+		width:106px;
+		height:72px;
+		position:absolute;
+		left:249px;
+		top:1764px;
+		background-image:url(images/14rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar15 { 
+		width:96px;
+		height:56px;
+		position:absolute;
+		left:51px;
+		top:1903px;
+		background-image:url(images/15rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar16 { 
+		width:93px;
+		height:64px;
+		position:absolute;
+		left:137px;
+		top:2019px;
+		background-image:url(images/16rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar17 { 
+		width:108px;
+		height:72px;
+		position:absolute;
+		left:249px;
+		top:2124px;
+		background-image:url(images/17rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar18 { 
+		width:93px;
+		height:64px;
+		position:absolute;
+		left:209px;
+		top:2255px;
+		background-image:url(images/18rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar19 { 
+		width:100px;
+		height:57px;
+		position:absolute;
+		left:37px;
+		top:2394px;
+		background-image:url(images/19rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar20 { 
+		width:94px;
+		height:68px;
+		position:absolute;
+		left:54px;
+		top:2499px;
+		background-image:url(images/20rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar21 { 
+		width:94px;
+		height:67px;
+		position:absolute;
+		left:256px;
+		top:2619px;
+		background-image:url(images/21rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar22 { 
+		width:94px;
+		height:67px;
+		position:absolute;
+		left:54px;
+		top:2747px;
+		background-image:url(images/22rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar23 { 
+		width:98px;
+		height:81px;
+		position:absolute;
+		left:252px;
+		top:2853px;
+		background-image:url(images/23rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar24 { 
+		width:96px;
+		height:69px;
+		position:absolute;
+		left:41px;
+		top:2979px;
+		background-image:url(images/24rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.rvcar25 { 
+		width:91px;
+		height:72px;
+		position:absolute;
+		left:101px;
+		top:3102px;
+		background-image:url(images/25rv.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.Exit { 
+		color:rgba(0, 0, 0, 1);
+		width:102px;
+		height:58px;
+		position:absolute;
+		left:157px;
+		top:3220px;
+		font-family:Helvetica Neue;
+		text-align:left;
+		font-size:48px;
+		letter-spacing:0;
+	}
+	
 
 }
