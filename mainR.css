@@ -15,7 +15,16 @@
     }
 }
 
-
+.rvM {
+	width:102px;
+	height:58px;
+	position:absolute;
+	font-size: 80px;
+	left:157px;
+	top:3800px;
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(153, 162, 159);
+}
 .rvB{ 
 	overflow:hidden;
 }
