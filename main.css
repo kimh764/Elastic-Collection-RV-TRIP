@@ -265,21 +265,24 @@ body{
     width: 30%;
     height: auto;
     left: 2%;
-    top: 1%;
+    top: 4%;
+	font-size: 18px;
 }
 
 .about { 
     width: 30%;
     height: auto;
     left: 24%;
-    top: 1%;
+    top: 4%;
+	font-size: 18px;
 }
 
 .video { 
     width: 25%;
     height: auto;
     right: 2%;
-    top: 1%;
+    top: 4%;
+	font-size: 18px;
 }
 .rv_16 { 
     width: 30%;
