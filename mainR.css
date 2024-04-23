@@ -439,16 +439,18 @@ code {
 
 
 	.c{
-		font-size: 12px;
+		font-size: 14px;
 		color: aliceblue;
 		font-family: 'Courier New', Courier, monospace;
+		left: 12px; 
 	}
 
 	
 	.w {
-		font-size: 14px;
+		font-size: 16px;
 		color: rgb(72, 249, 255);
 		font-family: 'Courier New', Courier, monospace;
+		left: 12px; 
 	}
 	.rvB { 
 		background-color:rgb(15, 15, 15);
